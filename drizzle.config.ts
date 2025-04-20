@@ -13,7 +13,7 @@ if (process.env.ENVIRONMENT === "production") {
     dbCredentials: {
       accountId: process.env.CLOUDFLARE_ACCOUNT_ID ?? "",
       token: process.env.CLOUDFLARE_API_TOKEN ?? "",
-      databaseId: "UPDATE_ME_D1_ID",
+      databaseId: "7d9011f2-ed1c-4f60-821d-634bc5914d85",
     },
   })
 } else {
